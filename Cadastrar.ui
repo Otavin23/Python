@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>381</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(28, 30, 42)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border: none;
+	background-color: rgb(15, 16, 22)
+}
+QLineEdit{
+	border-left: 5px solid rgb(250, 187, 17);
+	color: rgb(255, 188, 17);
+	
+	
+	
+	
+	
+	font: 75 8pt &quot;Kartika&quot;;
+	font-size: 15px
+
+}
+QLineEdit{
+	padding-left: 20px;
+}
+QLineEdit:hover{
+	color: rgb(250,187, 17);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	border-left: 3px solid rgb(15, 16, 22);
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>GMAIL</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border: none;
+	background-color: rgb(15, 16, 22)
+}
+QLineEdit{
+	border-left: 5px solid rgb(250, 187, 17);
+	color: rgb(255, 188, 17);
+	
+	
+	
+	
+	
+	font: 75 8pt &quot;Kartika&quot;;
+	font-size: 15px
+
+}
+QLineEdit{
+	padding-left: 20px;
+}
+QLineEdit:hover{
+	color: rgb(250,187, 17);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	border-left: 3px solid rgb(15, 16, 22);
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>SENHA</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border: none;
+	background-color: rgb(15, 16, 22)
+}
+QLineEdit{
+	border-left: 5px solid rgb(250, 187, 17);
+	color: rgb(255, 188, 17);
+	
+	
+	
+	
+	
+	font: 75 8pt &quot;Kartika&quot;;
+	font-size: 15px
+
+}
+QLineEdit{
+	padding-left: 20px;
+}
+QLineEdit:hover{
+	color: rgb(250,187, 17);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	border-left: 3px solid rgb(15, 16, 22);
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>SENHA-CONFIRMAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>380</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: none;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	
+	background-color: rgb(250, 187, 17);
+
+	color: rgb(135, 102, 20);
+
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Registrar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>381</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

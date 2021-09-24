@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(20, 24, 29)
+</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: none;
+	background-color: rgb(15, 16, 22)
+}
+QLineEdit{
+	border-left: 5px solid rgb(250, 187, 17);
+	color: rgb(255, 188, 17);
+	
+	
+	
+	
+	
+	font: 75 8pt &quot;Kartika&quot;;
+	font-size: 15px
+
+}
+QLineEdit{
+	padding-left: 20px;
+}
+QLineEdit:hover{
+	color: rgb(250,187, 17);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	border-left: 3px solid rgb(15, 16, 22);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>USUARIO</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>240</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: none;
+	background-color: rgb(15, 16, 22)
+}
+QLineEdit{
+	border-left: 5px solid rgb(250, 187, 17);
+	color: rgb(255, 188, 17);
+	
+	
+	
+	
+	
+	font: 75 8pt &quot;Kartika&quot;;
+	font-size: 15px
+
+}
+QLineEdit{
+	padding-left: 20px;
+}
+QLineEdit:hover{
+	color: rgb(250,187, 17);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	border-left: 3px solid rgb(15, 16, 22);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border: none;
+	background-color: rgb(250, 178, 0);
+	color: rgb(138, 88, 0);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>390</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CADASTRAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>40</y>
+     <width>171</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	
+	font: 8pt &quot;Dotum&quot;;
+	font-size: 55px;
+}
+QLabel{
+	color: rgb(241, 187, 41);
+}</string>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color: rgb(138, 105, 23);
+	font-size: 10px;
+	
+	Font-Family:Arial,Helveticac,sans-serif;
+}</string>
+   </property>
+   <property name="text">
+    <string>FORGOTTEN USERNAME OR PASSWORD?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
